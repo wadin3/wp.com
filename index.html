@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wadin Psykologi – Utredning & bedömning</title>
+  <meta name="description" content="Psykologisk utredning och bedömning för privatpersoner, vårdgivare och organisationer.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#/" aria-label="Wadin Psykologi startsida">
+        <svg viewBox="0 0 520 96" role="img" aria-label="Wadin Psykologi">
+          <defs><mask id="wcut"><rect width="100%" height="100%" fill="white"/><rect x="6" y="39" width="69" height="2.4" fill="black"/><rect x="6" y="50" width="69" height="2.4" fill="black"/></mask></defs>
+          <g class="logo-wadin" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="600" letter-spacing="5"><text x="2" y="66" mask="url(#wcut)">W</text><text x="73" y="66">ADIN</text></g>
+          <text class="logo-sub" x="330" y="66" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="300">Psykologi</text>
+        </svg>
+      </a>
+      <nav class="desktop-nav" aria-label="Huvudmeny">
+        <div class="nav-group"><button type="button" data-menu="private">Privatperson ▾</button><div class="dropdown" id="menu-private"></div></div>
+        <div class="nav-group"><button type="button" data-menu="org">Organisation ▾</button><div class="dropdown" id="menu-org"></div></div>
+        <a href="#/om">Om</a>
+        <a class="contact-nav" href="#/kontakt">Kontakt</a>
+      </nav>
+      <button class="mobile-toggle" type="button" aria-label="Öppna meny">Meny</button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav"></div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>
+    <div class="container footer-row"><span><strong>Wadin Psykologi</strong> · Wadin Psykologi & Struktur AB</span><span>Alingsås · Borås · Göteborg</span></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
